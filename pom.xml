@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.photon</groupId>
+    <artifactId>as3-commons-jasblocks</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <name>as3-commons-jasblocks</name>
+    <url>https://github.com/teotigraphix/as3-commons-jasblocks</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.compilerVersion>${java-lang.version}</maven.compiler.compilerVersion>
+        <maven.compiler.source>${java-lang.version}</maven.compiler.source>
+        <maven.compiler.target>${java-lang.version}</maven.compiler.target>
+
+        <java-lang.version>6</java-lang.version>
+        <junit.version>4.11</junit.version>
+        <antlr.version>3.3</antlr.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.antlr</groupId>
+            <artifactId>antlr</artifactId>
+            <version>${antlr.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+        </dependency>
+    </dependencies>
+</project>

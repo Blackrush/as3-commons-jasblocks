@@ -77,7 +77,7 @@ public class Test_AS3ParserModes extends TestCase
 		assertEquals(2, ctype.getImplementedInterfaces().size());
 	}
 	
-	public void test_uicomponent() throws RecognitionException, FileNotFoundException
+/*	public void test_uicomponent() throws RecognitionException, FileNotFoundException
 	{
 		FileInputStream in = new FileInputStream("C:\\Users\\Teoti\\Documents\\Flash\\libraries\\" +
 				"flex_sdk_4.5.0.20967\\frameworks\\projects\\framework\\src\\mx\\core\\UIComponent.as");
@@ -99,7 +99,7 @@ public class Test_AS3ParserModes extends TestCase
 		
 		//String xml = ASTUtils.convert(t, false);
 	}
-	
+*/	
 	@SuppressWarnings("unused")
 	public void _test_package() throws RecognitionException, FileNotFoundException
 	{

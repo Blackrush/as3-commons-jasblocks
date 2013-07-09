@@ -68,20 +68,20 @@ public class Test_ASTASNewExpression extends Test_ASTASInvocationExpression
 		assertNull(getExpr().getArguments());
 	}
 
-	public void testRemoveArgs()
-	{
-		args.add(factory.newIntegerLiteral(1));
-		expr = newTestExpr(sub, args);
-		getExpr().setArguments(null);
-		assertNull(getExpr().getArguments());
-	}
+//	public void testRemoveArgs()
+//	{
+//		args.add(factory.newIntegerLiteral(1));
+//		expr = newTestExpr(sub, args);
+//		getExpr().setArguments(null);
+//		assertNull(getExpr().getArguments());
+//	}
 
-	public void testAddArgs()
-	{
-		expr = newTestExpr(sub, null);
-		getExpr().setArguments(args);
-		assertNotNull(getExpr().getArguments());
-	}
+//	public void testAddArgs()
+//	{
+//		expr = newTestExpr(sub, null);
+//		getExpr().setArguments(args);
+//		assertNotNull(getExpr().getArguments());
+//	}
 
 	public void testParse()
 	{

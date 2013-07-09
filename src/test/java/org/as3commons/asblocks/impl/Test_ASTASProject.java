@@ -75,14 +75,14 @@ public class Test_ASTASProject extends TestCase
 		assertEmpty(project.getSourcePathEntries());
 	}
 
-	@Test
+/*	@Test
 	public void test_addSourcePath()
 	{
 		//project.addSourcePath("C:\\Users\\Teoti\\Documents\\Flash\\libraries\\"
 		//		+ "flex_sdk_4.5.0.20967\\frameworks\\projects\\framework\\src");
 		project.addSourcePath("C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-dom");
 	}
-
+*/
 	@Test
 	public void test_resourceRoots()
 	{
