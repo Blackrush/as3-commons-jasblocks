@@ -62,6 +62,6 @@ public class ASBlocksSyntaxError extends RuntimeException
 	 */
 	public ASBlocksSyntaxError(String message, Exception e)
 	{
-		super(message);
+		super(message, e);
 	}
 }
