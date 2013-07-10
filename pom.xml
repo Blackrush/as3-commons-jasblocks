@@ -4,7 +4,7 @@
 
     <groupId>org.photon</groupId>
     <artifactId>as3-commons-jasblocks</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>as3-commons-jasblocks</name>
