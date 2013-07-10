@@ -117,6 +117,8 @@ public class ExpressionBuilder
 				return new ASTASPropertyAttribute(ast);
 			case AS3Parser.E4X_ATTRI_EXPR:
 				return new ASTASExpressionAttribute(ast);
+            case AS3Parser.THIS:
+                return new ASTASThisExpression(ast);
 		default:
 			throw new IllegalArgumentException(
 					"unhandled expression node type: "
